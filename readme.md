@@ -7,7 +7,7 @@ _Desarrollo de una Landing Page_
 ## Diseño UI
 Realizado por [FlowBase.co](https://www.figma.com/@flowbase.co)
 
-![](/preview.jpg)
+![](/preview.png)
 
 ## Desarrollo web
 Realizado por [Facu Rousseaux](https://github.com/FacuRousseaux)
