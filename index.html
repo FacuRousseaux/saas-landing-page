@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SaaS Landing Page</title>
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="nav container">
+            <div class="nav__brand">
+                <a href="#"><img src="assets/images/logo.svg" class="img" alt="SaaS Landing Page"></a>
+            </div>
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#" class="nav__link">Home</a></li>
+                <li class="nav__item"><a href="#features" class="nav__link">Features</a></li>
+                <li class="nav__item"><a href="#precing" class="nav__link">Pricing</a></li>
+                <li class="nav__item"><a href="#" class="nav__link">Blog</a></li>
+            </ul>
+            <a href="#precing" class="btn btn--secundary">Get Started</a>
+            <a href="#" class="nav__toggle"><i class='bx bx-menu'></i></a>
+        </nav>
+    </header>
+
+    <section class="hero container">
+        <div class="hero__content">
+            <h1 class="title mb-30">Grow your subscription business</h1>
+            <p class="paragraph mb-50">Outcome-centered products that reduce churn, optimize pricing, and grow your subscription business end-to-end.</p>
+            <div class="btn-group">
+                <a href="#precing" class="btn btn--primary">Get Started</a>
+                <a href="#features" class="btn btn--icon"><i class='bx bxs-down-arrow-alt'></i></a>
+            </div>
+        </div>
+        <div class="hero__picture">
+            <img src="assets/images/hero-image.png" class="img" alt="">
+        </div>
+    </section>
+
+    <section class="sponsors container pdn">
+        <img src="assets/images/sponsors/logo-1.svg" class="img" alt="Logo 1">
+        <img src="assets/images/sponsors/logo-2.svg" class="img" alt="Logo 2">
+        <img src="assets/images/sponsors/logo-3.svg" class="img" alt="Logo 3">
+        <img src="assets/images/sponsors/logo-4.svg" class="img" alt="Logo 4">
+        <img src="assets/images/sponsors/logo-5.svg" class="img" alt="Logo 5">
+    </section>
+
+    <section id="features" class="subscription container pdn">
+        <div class="subscription__picture">
+            <img src="assets/images/subscription.png" alt="Subscription">
+        </div>
+        <div class="subscription__content">
+            <h2>Subscription index</h2>
+            <p>A daily dataset to keep you up to date on subscription market trends and what's happening in your vertical.</p>
+            <a href="#">Learn more</a>
+        </div>
+    </section>
+
+    <section  class="metrics container pdn">
+        <div class="metrics__content">
+            <h2>In-depth metrics</h2>
+            <p>Accurate, real-time reporting at your fingertips. Getting data has never been easier.</p>
+            <a href="#">Learn more</a>
+        </div>
+
+        <div class="metrics__picture">
+            <img src="assets/images/metrics.png" alt="Metrics">
+        </div>
+    </section>
+
+    <section class="features container pdn">
+        <div class="features__item">
+            <figure class="features__icon">
+                <img src="assets/images/benchmarks.png" class="img" alt="">
+            </figure>
+            <h2>Benchmarks</h2>
+            <p class="paragraph paragraph--small">See how you stack up against comparable<br> companies in similar stages.</p>
+        </div>
+
+        <div class="features__item">
+            <figure class="features__icon">
+                <img src="assets/images/precing.png" class="img" alt="">
+            </figure>
+            <h2>Precing Audit</h2>
+            <p class="paragraph paragraph--small">Benchmark the health of your monetization<br> and pricing strategy.</p>
+        </div>
+
+        <div class="features__item">
+            <figure class="features__icon">
+                <img src="assets/images/audit.png" class="img" alt="">
+            </figure>
+            <h2>Retention Audit</h2>
+            <p class="paragraph paragraph--small">Audit where revenue leakage exists and<br> where you can increase retention.</p>
+        </div>
+    </section>
+
+    <section id="precing" class="precing container pdn">
+        <div class="precing__intro">
+            <h2 class="title--small">Get the right plan<br>for future product.</h2>
+            <div class="precing__group-btn">
+                <a href="#" class="active left">Yearly</a>
+                <a href="#" class="right">Monthly</a>
+            </div>
+        </div>
+
+        <div class="precing__lists">
+            <div class="precing__list">
+                <p class="precing__category">Started</p>
+                <h2 class="precing__title">Free</h2>
+                <ul class="precing__details">
+                    <li>1 Website</li>
+                    <li>5GB Hosting</li>
+                    <li>Limited Support</li>
+                </ul>
+                <a href="#" class="precing__btn">Get Started</a>
+            </div>
+
+            <div class="precing__list precing__list--premium">
+                <p class="precing__category precing__category--premium">Premium</p>
+                <h2 class="precing__title precing__title--premium precingPremium">$29<small>/month</small> </h2>
+                <ul class="precing__details precing__details--premium">
+                    <li>10 Website</li>
+                    <li>15GB Hosting</li>
+                    <li>Premium Support</li>
+                </ul>
+                <a href="#" class="precing__btn precing__btn--premium">Get Started</a>
+            </div>
+
+            <div class="precing__list">
+                <p class="precing__category">Enterprise</p>
+                <h2 class="precing__title precingEnterprise">$49<small>/month</small></h2>
+                <ul class="precing__details">
+                    <li>Unlimited Website</li>
+                    <li>50GB Hosting</li>
+                    <li>Limited Support</li>
+                </ul>
+                <a href="#" class="precing__btn">Get Started</a>
+            </div>
+        </div>
+
+    </section>
+     <script src="script.js"></script>
+</body>
+</html>
